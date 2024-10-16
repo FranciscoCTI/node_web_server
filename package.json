@@ -1,0 +1,19 @@
+{
+  "name": "projecto-web-server",
+  "version": "0.0.1",
+  "description": "Projecto de servidor que hospeda pagina web con JS, html y css",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Francisco Contreras",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-var": "^7.5.0",
+    "express": "^4.21.1"
+  }
+}
