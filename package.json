@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Projecto de servidor que hospeda pagina web con JS, html y css",
   "main": "src/app.js",
+  "type":"module",
   "scripts": {
     "dev": "nodemon src/app.js"
   },
